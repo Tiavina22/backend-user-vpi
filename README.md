@@ -1,10 +1,10 @@
 # Backend de VP User Exercice
 
 ## Stacks
-- langage : Js
-- frameword : Node and express
-- ORM : sequelize
-- BD : postgres
+- langage : `Js`
+- framework : `Node` and `express`
+- ORM : `sequelize`
+- BD : `postgres`
 
 ## Usage
 Créer un fichier `.env` pour configuration de la base de donnée
@@ -13,12 +13,12 @@ Pour installer `dotenv` :
 npm install dotenv
 ```
 Dans le fichier .env devrait inclue 
-```bash
-DB_PORT=5432
-DB_NAME=VP_gestionUSER
-DB_PASSWORD=motDePasse
-DB_HOST=localhost
-DB_USER=postgres
-DB_TABLE=PSI_responsable
-PORT=3000
+```env
+DB_PORT=port_base_de_donne
+DB_NAME=nom_base_de_donne
+DB_PASSWORD=mot_de_passe_base_de_donne
+DB_HOST=host_base_de_donne
+DB_USER=nom_user_base_de_donne
+DB_TABLE=nom_du_table
+PORT=port
 ```
